@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0657984-b49e-47c8-ab22-34c72fb2177d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/chomp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/secure_base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/secure_dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/secure_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/secure_search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1YzuNzUkDqDz2oOaKwyOeewmWNy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -90,6 +75,10 @@
     </state>
     <state x="851" y="-888" key="com.intellij.ide.util.TipDialog/-89.-1440.2560.1440/0.0.1680.1050@-89.-1440.2560.1440" timestamp="1584983872927" />
     <state x="617" y="403" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584062576640" />
+    <state x="626" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584997868519">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="626" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1584997868519" />
     <state x="745" y="-1119" width="895" height="903" key="search.everywhere.popup" timestamp="1584984551830">
       <screen x="-89" y="-1440" width="2560" height="1440" />
     </state>

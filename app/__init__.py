@@ -1,4 +1,5 @@
 from flask import Flask
+import os
 from config import Config
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
@@ -13,3 +14,4 @@ hashing = Hashing(app)
 login = LoginManager()
 login.init_app(app)
 from app import routes, models
+

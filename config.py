@@ -10,4 +10,3 @@ class Config(object):
     SECRET_KEY = '123'
     UPLOAD_FOLDER = upload_dir
     ALLOWED_EXTENSIONS = ['png', 'jpg', 'jpeg']
-
