@@ -95,10 +95,10 @@ def load_user(user_id):
 @app.route('/')
 @app.route('/index')
 def index():
-    if not request.cookies.get('logged_in') == None:
-        return render_template('index.html')
-    else:
+    if request.cookies.get('logged_in') != None:
         return redirect('/dashboard')
+    else:
+        return render_template('index.html')
 
 @app.route('/secure/index')
 def secure_index():
