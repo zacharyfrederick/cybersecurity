@@ -81,7 +81,11 @@ def check_password(hash, raw, salt):
 
 
 def create_salt():
-    return urandom(16).hex()
+    import sys
+    if sys.platform == 'darwin':
+        return urandom(16).hex()
+    else:
+        return urandom(16)
 
 @login.user_loader
 def load_user(user_id):
