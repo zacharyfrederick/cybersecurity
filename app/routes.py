@@ -2,7 +2,6 @@ from app import app, hashing, db, login
 from flask import make_response, redirect, render_template, request, flash, url_for
 from app.forms import RegistrationForm, LoginForm, ChompForm, SearchForm
 from app.models import User, Chomp
-import secrets
 import time
 from sqlalchemy import create_engine
 from sqlalchemy.sql import text
@@ -13,6 +12,7 @@ from hashlib import sha512, md5
 import requests
 import string as string_func
 import random
+from os import urandom
 
 class ChompHolder:
     def __init__(self, username, body):
@@ -81,7 +81,7 @@ def check_password(hash, raw, salt):
 
 
 def create_salt():
-    return secrets.token_bytes(8)
+    return urandom(16).hex()
 
 @login.user_loader
 def load_user(user_id):
