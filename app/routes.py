@@ -85,7 +85,7 @@ def create_salt():
     if sys.platform == 'darwin':
         return urandom(16).hex()
     else:
-        return urandom(16).hex()
+        return urandom(16).encode('utf-8')
 
 @login.user_loader
 def load_user(user_id):
