@@ -13,6 +13,7 @@ import requests
 import string as string_func
 import random
 from os import urandom
+import string
 
 class ChompHolder:
     def __init__(self, username, body):
@@ -81,11 +82,10 @@ def check_password(hash, raw, salt):
 
 
 def create_salt():
-    import sys
-    if sys.platform == 'darwin':
-        return urandom(16).hex()
-    else:
-        return urandom(16).encode('utf-8')
+    #lol dont ever actually use anything like this
+    salt = ""
+    for _ in range(16):
+        salt += random.choice(string.ascii_letters)
 
 @login.user_loader
 def load_user(user_id):
