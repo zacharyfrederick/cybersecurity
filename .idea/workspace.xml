@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0657984-b49e-47c8-ab22-34c72fb2177d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,11 +75,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584998537486" />
-    <state x="851" y="-888" key="com.intellij.ide.util.TipDialog" timestamp="1584983872927">
-      <screen x="-89" y="-1440" width="2560" height="1440" />
+    <state x="617" y="403" key="com.intellij.ide.util.TipDialog" timestamp="1585006184933">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="851" y="-888" key="com.intellij.ide.util.TipDialog/-89.-1440.2560.1440/0.0.1680.1050@-89.-1440.2560.1440" timestamp="1584983872927" />
-    <state x="617" y="403" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584062576640" />
+    <state x="617" y="403" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585006184933" />
     <state x="626" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584997868519">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

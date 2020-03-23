@@ -17,7 +17,7 @@ class RegistrationForm(FlaskForm):
     first_name = StringField('First Name', validators=[DataRequired()])
     last_name = StringField('Last Name', validators=[DataRequired()])
     image = StringField('Image Link')
-    submit = SubmitField('Register')
+    submit = SubmitField('Start Chomping')
 
 class ChompForm(FlaskForm):
     body = StringField('Chomp', validators=[DataRequired()])
