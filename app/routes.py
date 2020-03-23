@@ -86,6 +86,7 @@ def create_salt():
     salt = ""
     for _ in range(16):
         salt += random.choice(string.ascii_letters)
+    return salt
 
 @login.user_loader
 def load_user(user_id):
