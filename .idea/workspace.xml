@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0657984-b49e-47c8-ab22-34c72fb2177d" name="Default Changelist" comment="" />
+    <list default="true" id="b0657984-b49e-47c8-ab22-34c72fb2177d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/chomp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/secure_base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/secure_dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/secure_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/secure_search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +36,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YzuNzUkDqDz2oOaKwyOeewmWNy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,6 +49,16 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/res" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -39,18 +74,27 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="335" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583974646076">
-      <screen x="-89" y="-1080" width="1920" height="1080" />
+    <state x="476" y="-1171" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584988189890">
+      <screen x="-89" y="-1440" width="2560" height="1440" />
     </state>
     <state x="335" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog/-89.-1080.1920.1080/0.0.1680.1050@-89.-1080.1920.1080" timestamp="1583974646076" />
     <state x="335" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog/-89.-1080.1920.1080/0.23.1680.1027@-89.-1080.1920.1080" timestamp="1583964154151" />
-    <state x="851" y="-888" key="com.intellij.ide.util.TipDialog" timestamp="1584057941709">
+    <state x="476" y="-1171" key="#com.intellij.execution.impl.EditConfigurationsDialog/-89.-1440.2560.1440/0.0.1680.1050@-89.-1440.2560.1440" timestamp="1584988189890" />
+    <state x="371" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584068686181" />
+    <state x="920" y="-920" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584942616329">
       <screen x="-89" y="-1440" width="2560" height="1440" />
     </state>
-    <state x="851" y="-888" key="com.intellij.ide.util.TipDialog/-89.-1440.2560.1440/0.0.1680.1050@-89.-1440.2560.1440" timestamp="1584057941709" />
-    <state x="536" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1583974948141">
-      <screen x="-89" y="-1080" width="1920" height="1080" />
+    <state x="920" y="-920" key="#com.intellij.fileTypes.FileTypeChooser/-89.-1440.2560.1440/0.0.1680.1050@-89.-1440.2560.1440" timestamp="1584942616329" />
+    <state x="851" y="-888" key="com.intellij.ide.util.TipDialog" timestamp="1584983872927">
+      <screen x="-89" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="851" y="-888" key="com.intellij.ide.util.TipDialog/-89.-1440.2560.1440/0.0.1680.1050@-89.-1440.2560.1440" timestamp="1584983872927" />
+    <state x="617" y="403" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584062576640" />
+    <state x="745" y="-1119" width="895" height="903" key="search.everywhere.popup" timestamp="1584984551830">
+      <screen x="-89" y="-1440" width="2560" height="1440" />
     </state>
     <state x="536" y="-839" width="670" height="676" key="search.everywhere.popup/-89.-1080.1920.1080/0.0.1680.1050@-89.-1080.1920.1080" timestamp="1583974948141" />
+    <state x="745" y="-1119" width="895" height="903" key="search.everywhere.popup/-89.-1440.2560.1440/0.0.1680.1050@-89.-1440.2560.1440" timestamp="1584984551830" />
+    <state x="547" y="234" width="587" height="658" key="search.everywhere.popup/-89.-1440.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1584124446911" />
   </component>
 </project>

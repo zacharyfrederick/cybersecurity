@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 >{{ user.username }} <small><i>{{ user.tagline }}</i></small></h1>
+
+    <form method="post" action='/process'>
+        <div class="form-group">
+            <label>{{form.body.label}}</label>
+            {{ form.body }}
+
+         {{ form.submit }}
+        </div>
+    </form>
+
+    {% if chomps %}
+        {% for chomp in chomps %}
+        <p><b>{{ chomp.username }}</b>: {{ chomp.body }}</p>
+        {% endfor %}
+    {% endif %}
+
+{% endblock %}

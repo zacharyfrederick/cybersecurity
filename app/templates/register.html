@@ -1,16 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <h1>Register for an account with Chomp</h1>
+{% extends "base.html" %}
+
+{% block content %}
+     <h1>Register for an account with Chomp</h1>
     <form action="" method="post" novalidate>
         <p>
             {{ form.username.label }}<br>
             {{ form.username(size=32) }}
         </p>
+
         <p>
             {{ form.password1.label }}<br>
             {{ form.password1(size=32) }}
@@ -20,7 +17,27 @@
             {{ form.password2.label }}<br>
             {{ form.password2(size=32) }}
         </p>
+
+        <p>
+            {{ form.tagline.label }}<br>
+            {{ form.tagline(size=32) }}
+        </p>
+
+        <p>
+            {{ form.first_name.label }}<br>
+            {{ form.first_name(size=32) }}
+        </p>
+
+        <p>
+            {{ form.last_name.label }}<br>
+            {{ form.last_name(size=32) }}
+        </p>
+
+        <p>
+            {{ form.image.label }}<br>
+            {{ form.image(size=32) }}
+        </p>
+
         <p>{{ form.submit() }}</p>
     </form>
-</body>
-</html>
+{% endblock %}

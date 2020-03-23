@@ -1,0 +1,24 @@
+{% extends "secure_base.html" %}
+
+{% block content %}
+
+    {% if current_user.is_authenticated %}
+
+    <h1 >{{ current_user.username }}</h1>
+    <small>{{current_user.tagline}}</small>
+
+    <form method="post" action='/secure/process'>
+        <p>{{ form.body.label }}
+            {{ form.body }}</p>
+
+        <p> {{ form.submit }}</p>
+
+    </form>
+
+    {% if chomps %}
+        {% for chomp in chomps %}
+        <p><b>{{ chomp.username }}</b>: {{ chomp.body }}</p>
+        {% endfor %}
+    {% endif %}
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,7 @@
+{% extends "secure_base.html" %}
+
+{% block content %}
+
+<h1><img width="30" height="30" class="d-inline-block" alt="" src={{current_user.image}}> <small>|</small> {{current_user.username}}</h1>
+<small>{{current_user.tagline}}</small>
+{% endblock %}
